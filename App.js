@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, TextInput, Button, Image, ImageBackground, TouchableOpacity } from 'react-native';
+import FirstComponent from './assets/components/FirstComponent';
 
 export default function App() {
  
@@ -22,6 +23,7 @@ const imagem = { uri: 'https://img.freepik.com/fotos-premium/imagem-de-desenho-d
 
       <View style={[estilos.header, { backgroundColor: 'gray', width: '100%', height: 110 }]}>
         <Text style={{fontSize: 25,}}>Bem-vindo  Página de Paulo</Text>
+        <FirstComponent></FirstComponent>
       </View>
       <View style={estilos.secondaryContainer}>
         <Text style={{ color: '#fff', fontSize: 30, fontWeight: 'bold', textAlign: 'end' }}>Insira Usuário e Senha</Text>
