@@ -28,12 +28,7 @@ const imagem = { uri: 'https://img.freepik.com/fotos-premium/imagem-de-desenho-d
         <TextInput style={estilos.inputName} placeholder='Digite seu Email' ></TextInput>
         <TextInput style={estilos.inputName} placeholder='Digite sua senha' secureTextEntry= {true} keyboardType='numeric' ></TextInput>
        
-        <Button style={{
-          backgroundColor: 'red', 
-          borderWidth: 1, 
-          borderRadius: 20,
-
-        }} onPress={pressButton} title='Entra'
+        <Button onPress={pressButton} title='Entra'
         color='gray'></Button>
 
       </View>
