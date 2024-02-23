@@ -8,7 +8,7 @@ pressButton =() => {
 }
 
 mensagem =() => {
-  alert("Miau")
+  alert("Miau *Grunhido*")
 }
 
 const imagem2 = { uri: 'https://images.vexels.com/media/users/3/272047/isolated/preview/2e1f0b20d5863bd3531aae733df2b6ba-a-cone-de-gato-preto-de-desenho-animado.png'}
@@ -53,22 +53,23 @@ const estilos = StyleSheet.create({
     flex: 1,
     width: '100%',
     justifyContent: 'center',
+    alignItems: 'center',
     padding: 15,
   },
   inputName: {
+    width: '80%',
     borderWidth: 1,
     borderColor: 'black',
     padding: 15,
     fontSize: 20,
     placeholder:'Digite sua senha',
     inputMode: 'text',
-    placeholderTextColor: 'red',
     margin: 5,
     backgroundColor: '#fff'
   },
   img: {
     width: '100%',
-    height: '100%'
+    height: '100%',
   },
   header: {
     alignItems: 'center',
